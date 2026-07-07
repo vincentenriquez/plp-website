@@ -37,7 +37,7 @@ function moveSlider(direction) {
 function startAutoplay() {
     setInterval(() => {
         moveSlider('next')
-    }, 3000) // Change speed here if needed
+    }, 5000) // Change speed here if needed
 }
 
 // Start autoplay immediately
